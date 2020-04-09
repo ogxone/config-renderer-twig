@@ -6,7 +6,7 @@
  * Time: 11:37 AM
  */
 
-namespace ConfigRendererTwig;
+namespace Ogxone\ConfigRendererTwig;
 
 use Twig\Environment;
 use Twig\Loader\ArrayLoader;

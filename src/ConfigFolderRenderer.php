@@ -6,7 +6,9 @@
  * Time: 8:05 PM
  */
 
-namespace ConfigRendererTwig;
+namespace Ogxone\ConfigRendererTwig;
+
+use Ogxone\Utils\Filesystem\Utils;
 
 /**
  * Class ConfigFolderRenderer

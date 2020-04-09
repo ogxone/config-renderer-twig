@@ -8,10 +8,10 @@
 
 namespace ConfigRendererTwigTest;
 
-use ConfigRendererTwig\ConfigFolderRenderer;
-use ConfigRendererTwig\RenderingContext;
-use ConfigRendererTwig\TemplateRenderer;
-use ConfigRendererTwig\Utils;
+use Ogxone\ConfigRendererTwig\ConfigFolderRenderer;
+use Ogxone\ConfigRendererTwig\RenderingContext;
+use Ogxone\ConfigRendererTwig\TemplateRenderer;
+use Ogxone\Utils\Filesystem\Utils;
 use PHPUnit\Framework\TestCase;
 
 class ConfigFolderRendererTest extends TestCase

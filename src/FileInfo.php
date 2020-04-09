@@ -6,7 +6,7 @@
  * Time: 10:39 PM
  */
 
-namespace ConfigRendererTwig;
+namespace Ogxone\ConfigRendererTwig;
 
 /**
  * Class FileInfo

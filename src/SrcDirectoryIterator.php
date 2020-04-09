@@ -6,7 +6,7 @@
  * Time: 10:38 PM
  */
 
-namespace ConfigRendererTwig;
+namespace Ogxone\ConfigRendererTwig;
 
 /**
  * Class SrcDirectoryIterator

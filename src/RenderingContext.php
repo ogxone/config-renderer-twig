@@ -6,7 +6,7 @@
  * Time: 8:47 PM
  */
 
-namespace ConfigRendererTwig;
+namespace Ogxone\ConfigRendererTwig;
 
 /**
  * Class RenderingContext
