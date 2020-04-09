@@ -11,7 +11,7 @@ namespace ConfigRendererTwigTest;
 use ConfigRendererTwig\ConfigFolderRenderer;
 use ConfigRendererTwig\RenderingContext;
 use ConfigRendererTwig\TemplateRenderer;
-use Pentity\Utils\Filesystem\Utils;
+use ConfigRendererTwig\Utils;
 use PHPUnit\Framework\TestCase;
 
 class ConfigFolderRendererTest extends TestCase
@@ -29,7 +29,7 @@ class ConfigFolderRendererTest extends TestCase
      */
     private $configRenderer;
 
-    public function setUp()
+    protected function setUp(): void
     {
         $this->templateRenderer = new TemplateRenderer(__DIR__ . '/fixtures/nginx/templates');
         $this->renderingContext = new RenderingContext(
