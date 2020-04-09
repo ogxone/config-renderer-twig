@@ -1,7 +1,7 @@
 {
   "name": "ogxone/config-renderer-twig",
-  "description": "renders folders recursively and uses twig to render all *.twig files",
-  "keywords": ["renders folders recursively and uses twig to render all *.twig files"],
+  "description": "Renders folders recursively and uses twig to render all .twig files",
+  "keywords": ["twig, folder, render"],
   "license": "MIT",
   "authors": [
     {
