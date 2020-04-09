@@ -1,0 +1,29 @@
+{
+  "name": "ogxone/config-renderer-twig",
+  "description": "renders folders recursively and uses twig to render all *.twig files",
+  "keywords": ["renders folders recursively and uses twig to render all *.twig files"],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "ogxone"
+    }
+  ],
+  "require": {
+    "twig/twig": "~2.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^9.0",
+    "roave/security-advisories": "dev-master"
+  },
+  "autoload": {
+    "psr-4": {
+      "ConfigRendererTwig\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "ConfigRendererTwigTest\\": "test/"
+    }
+  }
+}
+  
